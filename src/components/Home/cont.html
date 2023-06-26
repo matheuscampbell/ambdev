@@ -1,0 +1,103 @@
+  <TitleH1 title="Dashboard"/>
+        <div class="container-fluid">
+          <div class="card shadow" style="margin-bottom: 10px;">
+            <div class="card-header py-3">
+              <p class="text-primary m-0 fw-bold"><i class="fas fa-clipboard-check"></i>&nbsp;Projetos Ativos</p>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 text-nowrap">
+                  <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable"><label
+                      class="form-label">Show&nbsp;<select class="d-inline-block form-select form-select-sm">
+                    <option value="10" selected="">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>&nbsp;</label></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="text-md-end dataTables_filter" id="dataTable_filter"><label class="form-label"><input
+                      type="search" class="form-control form-control-sm" aria-controls="dataTable" placeholder="Search"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
+                <table class="table my-0" id="dataTable">
+                  <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Status</th>
+                    <th style="width: 190px;">Opções</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Airi Satou</td>
+                    <td>Accountant</td>
+                    <td>
+                      <div class="btn-group btn-group-sm" role="group">
+                        <button class="btn btn-success link-light" type="button">&nbsp;<i class="fas fa-play"></i>&nbsp;
+                        </button>
+                        <button class="btn btn-warning link-light" type="button"><i class="fas fa-sync"></i></button>
+                        <button class="btn btn-danger" type="button"><i class="fas fa-stop"></i></button>
+                      </div>
+                      <div class="btn-group btn-group-sm" role="group" style="margin-left: 8px;">
+                        <button class="btn btn-info link-light" type="button"><i class="fas fa-list"></i></button>
+                        <button class="btn btn-secondary" type="button"><i class="fas fa-terminal"></i></button>
+                      </div>
+                    </td>
+                  </tr>
+                  </tbody>
+                  <tfoot>
+                  <tr>
+                    <td><strong>#</strong></td>
+                    <td><strong>Nome</strong></td>
+                    <td><strong>Status</strong></td>
+                    <td><strong>Opções</strong></td>
+                  </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow">
+            <div class="card-header py-3">
+              <p class="text-primary m-0 fw-bold">Projetos Inativos:</p>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive table mt-2" id="dataTable-2" role="grid" aria-describedby="dataTable_info">
+                <table class="table my-0" id="dataTable">
+                  <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Status</th>
+                    <th style="width: 190px;">Opções</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Airi Satou</td>
+                    <td>Accountant</td>
+                    <td>
+                      <button class="btn btn-info link-light" type="button">Ativar&nbsp;<i
+                          class="fas fa-plus-circle"></i></button>
+                    </td>
+                  </tr>
+                  </tbody>
+                  <tfoot>
+                  <tr>
+                    <td><strong>#</strong></td>
+                    <td><strong>Nome</strong></td>
+                    <td><strong>Status</strong></td>
+                    <td><strong>Opções</strong></td>
+                  </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>

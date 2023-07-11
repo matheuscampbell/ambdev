@@ -7,9 +7,23 @@ export default {
   components: {
     TitleH1,
     Cards
+  },
+  methods: {
+    async getFiles() {
+      //create a dir projects
+      
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      console.log('teste');
+      window.ipcRenderer.send('message', 'teste2');
+    }, 1000);
   }
 };
-
+window.ipcRenderer.on('teste', (event, a_new_message) => {
+  console.log(a_new_message);
+});
 </script>
 
 <template>

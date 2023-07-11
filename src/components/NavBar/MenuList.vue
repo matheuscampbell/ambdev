@@ -11,6 +11,11 @@ export default {
           link: "/",
         },
         {
+          name: "Projetos",
+          icon: "fa fa-folder-open",
+          link: "/",
+        },
+        {
           name: "Sobre",
           icon: "fas fa-info-circle",
           link: "/sobre",
@@ -54,9 +59,11 @@ export default {
 .nav-item {
   /*adicona borda bem fina*/
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-right: 2px solid transparent;
 }
 .nav-item:hover {
-  background-color: rgba(81, 119, 229, 0.5);
+  background-color: #026f80;
+  border-right: 2px solid #51e58a;
 }
 </style>

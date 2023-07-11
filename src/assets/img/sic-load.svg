@@ -1,0 +1,86 @@
+<svg id="BJ1WCJVupZz" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 120">
+    <style>
+        #B1-W01E_6bG{fill: none;}#S1zbCyVua-z{fill: #75c044;}#rkXWAyNdpWM{fill: #00ae9d;}#SyV-R14OaWM{fill: #bfd730;}
+
+	@keyframes S1zbCyVua-zAnimation {
+		0% {
+			opacity: 1;
+		}
+		26.67% {
+			opacity: 0.45;
+		}
+		50% {
+			opacity: 0.7;
+		}
+		70% {
+			opacity: 0.7;
+		}
+		73.33% {
+			opacity: 0.7;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#S1zbCyVua-z {
+		transform-origin: 50% 50% !important;
+		animation: S1zbCyVua-zAnimation 1s infinite
+	}
+
+
+
+	@keyframes rkXWAyNdpWMAnimation {
+		0% {
+			opacity: 1;
+		}
+		33.33% {
+			opacity: 0.4;
+		}
+		70% {
+			opacity: 0.6;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#rkXWAyNdpWM {
+		transform-origin: 50% 50% !important;
+		animation: rkXWAyNdpWMAnimation 1s infinite
+	}
+
+
+
+	@keyframes SyV-R14OaWMAnimation {
+		0% {
+			opacity: 1;
+		}
+		13.33% {
+			opacity: 0.5;
+		}
+		50% {
+			opacity: 0.7;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#SyV-R14OaWM {
+		transform-origin: 50% 50% !important;
+		animation: SyV-R14OaWMAnimation 1s infinite
+	}
+    </style>
+    <svg id="BJ1WCJVupZz" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 120">
+        <title>
+            sicoob
+        </title>
+        <g>
+            <polygon points="87.061 53.524 68.002 20.594 48.928 53.524 87.061 53.524" id="B1-W01E_6bG"/>
+            <path d="M68.00234,20.59437,56.29806.37134H7.04836a7.55062,7.55062,0,0,0-3.09686.96387A7.33852,7.33852,0,0,0,.28042,7.69416a7.465,7.465,0,0,0,.78131,3.288L37.20608,73.79877,48.92782,53.524Z" id="S1zbCyVua-z"/>
+            <path d="M128.77975.37134H56.29806l11.70428,20.223L87.06069,53.524h23.35425l24.57672-42.6889a7.39036,7.39036,0,0,0,.72791-3.14093A7.38772,7.38772,0,0,0,128.77975.37134Z" id="rkXWAyNdpWM"/>
+            <path d="M87.06069,53.524H48.92782L37.20608,73.79877l24.749,42.6178a7.20543,7.20543,0,0,0,2.34778,2.223,7.33787,7.33787,0,0,0,9.82849-2.34485L110.41494,53.524H87.06069Z" id="SyV-R14OaWM"/>
+        </g>
+    </svg>
+</svg>
